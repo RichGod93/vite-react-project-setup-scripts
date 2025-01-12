@@ -77,7 +77,7 @@ my-project/
 ## 🌐 Article on Usage
 
 For a detailed walkthrough of the scripting journey and how to use these scripts effectively, check out my article:
-How Scripting Made Setting Up Vite + React Projects 100x Easier
+[How Scripting Made Setting Up Vite + React Projects 100x Easier](https://richgodsblog.hashnode.dev/my-little-adventure-into-the-world-of-scripting?showSharer=true)
 
 ## 🤝 Contributing
 
