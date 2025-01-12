@@ -58,19 +58,20 @@ Follow the prompts to enter the project name. The script will handle the rest.
 
 The scripts create the following folder structure in your project:
 
+````plaintext
 my-project/
 ├── public/
-│ ├── fonts/
-│ ├── images/
+│   ├── fonts/
+│   ├── images/
 ├── src/
-│ ├── components/
-│ │ ├── common/
-│ │ ├── layouts/
-│ │ ├── ui/
-│ │ ├── utils/
-│ ├── constants/
-│ ├── lib/
-│ ├── pages/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── layouts/
+│   │   ├── ui/
+│   │   ├── utils/
+│   ├── constants/
+│   ├── lib/
+│   ├── pages/
 
 ## 🌐 Article on Usage
 
@@ -94,7 +95,7 @@ Feel free to fork the repository and submit a pull request.
 
 ```sh
 git checkout -b feature-name
-```
+````
 
 Commit your changes:
 
