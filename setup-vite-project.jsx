@@ -25,7 +25,7 @@ const prompt = (query) =>
     }
 
     const dependencies = {
-      "@nextui-org/react": "^2.6.11",
+      "@heroui/react": "^2.6.14",
       "antd": "^5.23.0",
       "framer-motion": "^11.16.0",
       "prop-types": "^15.8.1",
@@ -83,12 +83,12 @@ const prompt = (query) =>
     fs.writeFileSync(
       'tailwind.config.js',
       `/** @type {import('tailwindcss').Config} */
-import { nextui } from "@nextui-org/react";
+import { heroui } from "@heroui/react";
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -98,7 +98,7 @@ export default {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [heroui()],
 };
 `,
       'utf8'
